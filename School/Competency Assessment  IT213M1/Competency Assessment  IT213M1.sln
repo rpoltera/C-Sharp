@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Competency Assessment  IT213M1", "Competency Assessment  IT213M1\Competency Assessment  IT213M1.csproj", "{316BE626-556A-4407-97C9-E61DB473D1CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{316BE626-556A-4407-97C9-E61DB473D1CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{316BE626-556A-4407-97C9-E61DB473D1CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{316BE626-556A-4407-97C9-E61DB473D1CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{316BE626-556A-4407-97C9-E61DB473D1CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EC66B4B-BF4A-4A12-98DF-34E58E23E7AD}
+	EndGlobalSection
+EndGlobal

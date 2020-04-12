@@ -1,0 +1,11 @@
+C:\Users\ray\source\repos\Assessment IT213M2 Section X\Assessment IT213M2 Section X\obj\Debug\netcoreapp3.0\Assessment IT213M2 Section X.csprojAssemblyReference.cache
+C:\Users\ray\source\repos\Assessment IT213M2 Section X\Assessment IT213M2 Section X\obj\Debug\netcoreapp3.0\Assessment IT213M2 Section X.AssemblyInfoInputs.cache
+C:\Users\ray\source\repos\Assessment IT213M2 Section X\Assessment IT213M2 Section X\obj\Debug\netcoreapp3.0\Assessment IT213M2 Section X.AssemblyInfo.cs
+C:\Users\ray\source\repos\Assessment IT213M2 Section X\Assessment IT213M2 Section X\bin\Debug\netcoreapp3.0\Assessment IT213M2 Section X.exe
+C:\Users\ray\source\repos\Assessment IT213M2 Section X\Assessment IT213M2 Section X\bin\Debug\netcoreapp3.0\Assessment IT213M2 Section X.deps.json
+C:\Users\ray\source\repos\Assessment IT213M2 Section X\Assessment IT213M2 Section X\bin\Debug\netcoreapp3.0\Assessment IT213M2 Section X.runtimeconfig.json
+C:\Users\ray\source\repos\Assessment IT213M2 Section X\Assessment IT213M2 Section X\bin\Debug\netcoreapp3.0\Assessment IT213M2 Section X.runtimeconfig.dev.json
+C:\Users\ray\source\repos\Assessment IT213M2 Section X\Assessment IT213M2 Section X\bin\Debug\netcoreapp3.0\Assessment IT213M2 Section X.dll
+C:\Users\ray\source\repos\Assessment IT213M2 Section X\Assessment IT213M2 Section X\bin\Debug\netcoreapp3.0\Assessment IT213M2 Section X.pdb
+C:\Users\ray\source\repos\Assessment IT213M2 Section X\Assessment IT213M2 Section X\obj\Debug\netcoreapp3.0\Assessment IT213M2 Section X.dll
+C:\Users\ray\source\repos\Assessment IT213M2 Section X\Assessment IT213M2 Section X\obj\Debug\netcoreapp3.0\Assessment IT213M2 Section X.pdb

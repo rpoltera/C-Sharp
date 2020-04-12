@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Assessment IT213M2 Section X/1.0.0": {
+        "runtime": {
+          "Assessment IT213M2 Section X.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Assessment IT213M2 Section X/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
