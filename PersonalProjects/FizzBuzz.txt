@@ -1,0 +1,37 @@
+using System;
+
+namespace FizzBuzz
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            for (int x = 1; x <= 100; x++)
+                {
+                //Writeline the numbers that are both Fizz & Buzz
+                if (x % 3 == 0 && x % 5 == 0)
+                {
+                    Console.WriteLine("FizzBuzz");
+                }
+                //Writeline the numbers that are Fizz
+                else if (x % 3 == 0)
+                {
+                    Console.WriteLine("Fizz");
+                }
+                //Writeline the numbers that are Buzz
+                else if (x % 5 == 0)
+                {
+                    Console.WriteLine("Buzz");
+                }
+                //Writeline the numbers that are neither Fizz or Buzz
+                else if (x % 3 != 0 && x % 5 != 0)
+                {
+                    Console.WriteLine(x);
+                }
+                
+            }
+
+        }
+    }
+}
