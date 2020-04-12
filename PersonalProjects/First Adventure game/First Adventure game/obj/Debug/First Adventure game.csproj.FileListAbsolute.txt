@@ -1,0 +1,6 @@
+C:\Users\ray\source\repos\First Adventure game\First Adventure game\obj\Debug\First Adventure game.csprojAssemblyReference.cache
+C:\Users\ray\source\repos\First Adventure game\First Adventure game\bin\Debug\First Adventure game.exe.config
+C:\Users\ray\source\repos\First Adventure game\First Adventure game\bin\Debug\First Adventure game.exe
+C:\Users\ray\source\repos\First Adventure game\First Adventure game\bin\Debug\First Adventure game.pdb
+C:\Users\ray\source\repos\First Adventure game\First Adventure game\obj\Debug\First Adventure game.exe
+C:\Users\ray\source\repos\First Adventure game\First Adventure game\obj\Debug\First Adventure game.pdb
