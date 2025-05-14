@@ -88,4 +88,33 @@ EOF
 
   $STD systemctl enable plex-gpu-access.service
   
-  #
+  # Create Plex preferences with hardware acceleration
+  mkdir -p /var/lib/plexmediaserver/Library/Application\ Support/Plex\ Media\ Server/
+  
+  cat > /var/lib/plexmediaserver/Library/Application\ Support/Plex\ Media\ Server/Preferences.xml << 'EOF'
+<?xml version="1.0" encoding="utf-8"?>
+<Preferences HardwareAcceleratedCodecs="1" HardwareAcceleratedEncoders="nvenc" HardwareAcceleratedDecoders="nvidia" HardwareDevicePath="/dev/dri:/dev/nvidia0" />
+EOF
+  
+  $STD chown -R plex:plex /var/lib/plexmediaserver/
+  $STD systemctl restart plexmediaserver
+}
+
+start
+build_container
+customize_container
+description
+
+msg_ok "Completed Successfully!\n"
+echo -e "${CREATING}${GN}${APP} setup has been successfully initialized!${CL}"
+echo -e "${INFO}${YW} Access it using the following URL:${CL}"
+echo -e "${TAB}${GATEWAY}${BGN}http://${IP}:32400/web${CL}"
+echo -e "${INFO}${YW} Important Notes:${CL}"
+echo -e "${TAB}${BGN}1. Make sure to pass your NVIDIA GPU to the container in Proxmox${CL}"
+echo -e "${TAB}${BGN}2. Add these lines to your LXC config (replace with your GPU IDs):${CL}"
+echo -e "${TAB}${BGN}   lxc.cgroup2.devices.allow: c 226:* rwm${CL}"
+echo -e "${TAB}${BGN}   lxc.mount.entry: /dev/nvidia0 dev/nvidia0 none bind,optional,create=file${CL}"
+echo -e "${TAB}${BGN}   lxc.mount.entry: /dev/nvidiactl dev/nvidiactl none bind,optional,create=file${CL}"
+echo -e "${TAB}${BGN}   lxc.mount.entry: /dev/nvidia-uvm dev/nvidia-uvm none bind,optional,create=file${CL}"
+echo -e "${TAB}${BGN}   lxc.mount.entry: /dev/nvidia-modeset dev/nvidia-modeset none bind,optional,create=file${CL}"
+echo -e "${TAB}${BGN}   lxc.mount.entry: /dev/dri dev/dri none bind,optional,create=dir${CL}"
